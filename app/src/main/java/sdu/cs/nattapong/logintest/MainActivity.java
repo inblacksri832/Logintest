@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 if ((nameString.length()== 0)||(userString.length()== 0)||(passString.length()== 0 )){
                     Toast.makeText(getApplicationContext(),"กรุณากรอกข้อมูลให้ครบทุกช่อง",Toast.LENGTH_SHORT).show();
                 }
+
+                //Check username&password
             }
         });//end setonClickListener
     }//end onCreate
